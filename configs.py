@@ -18,13 +18,13 @@ class Config(object):
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
-	ABOUT_BOT_TEXT = f"""
-**Nᴏᴛʜɪɴɢ ഇതിൽ ലൈറ്റ് കത്തും..!**
+	ABOUT_BOT_TEXT = """
+Nᴏᴛʜɪɴɢ ഇതിൽ ലൈറ്റ് കത്തും..!
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @MDCAdminRobot 
 """
-	HOME_TEXT = f"""
-**Hᴇʏ ᴛʜᴇʀᴇ [{}](tg://user?id={}) 🙌
+	HOME_TEXT = """
+Hᴇʏ ᴛʜᴇʀᴇ [{}](tg://user?id={}) 🙌
 
-I ᴀᴍ Nɪʟᴀ Nᴀᴍʙɪᴀᴇʀ,  A Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ Mᴀʟᴀʏᴀʟᴀᴍ Dᴜʙʙɪɴɢ Cᴏᴍᴍᴜɴɪᴛʏ. Oɴʟʏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴍᴇ. Sᴏ ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ 😊**"""
+I ᴀᴍ Nɪʟᴀ Nᴀᴍʙɪᴀᴇʀ,  A Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ Mᴀʟᴀʏᴀʟᴀᴍ Dᴜʙʙɪɴɢ Cᴏᴍᴍᴜɴɪᴛʏ. Oɴʟʏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴍᴇ. Sᴏ ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ 😊"""
