@@ -4,12 +4,12 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	API_ID = int(os.environ.get("19383278"))
+	API_HASH = os.environ.get("6e6c8100d5564c59bfd82a7a86aadb95")
+	BOT_TOKEN = os.environ.get("6711470972:AAHZWOlCGp-TgqQ0ic_RS3UUvpqlh5w4lrk")
+	BOT_USERNAME = os.environ.get("MDCNilaBot")
+	DB_CHANNEL = int(os.environ.get("-1002065818511"))
+	BOT_OWNER = int(os.environ.get("7127020589"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
@@ -19,34 +19,12 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
-Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
-
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
-
-📝 **Language:** [Python3](https://www.python.org)
-
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
-
-📡 **Hosted on:** [Heroku](https://heroku.com)
-
-🧑🏻‍💻 **Developer:** @AbirHasan2005
-
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+**Nᴏᴛʜɪɴɢ ഇതിൽ ലൈറ്റ് കത്തും..!**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
-
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
-
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+🧑🏻‍💻 **Developer:** @MDCAdminRobot 
 """
-	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+	HOME_TEXT = f"""
+**Hᴇʏ ᴛʜᴇʀᴇ [{}](tg://user?id={}) 🙌
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
-"""
+I ᴀᴍ Nɪʟᴀ Nᴀᴍʙɪᴀᴇʀ,  A Fɪʟᴇ Sᴛᴏʀᴇ Bᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ Mᴀʟᴀʏᴀʟᴀᴍ Dᴜʙʙɪɴɢ Cᴏᴍᴍᴜɴɪᴛʏ. Oɴʟʏ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴀᴅᴍɪɴs ᴄᴀɴ ᴜsᴇ ᴍᴇ. Sᴏ ᴅᴏɴ'ᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ 😊**"""
